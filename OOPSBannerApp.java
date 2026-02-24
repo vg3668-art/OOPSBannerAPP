@@ -1,4 +1,4 @@
-v/**
+/**
  * @author [VIGNESH]
  * @version 1.0 UC2-Print OOPS Banner
  */
@@ -17,4 +17,5 @@ public class OOPSBannerApp {
         System.out.println("*    * *    * *        *");
         System.out.println(" ****   ****  *     **** ");
     }
+}
 }
