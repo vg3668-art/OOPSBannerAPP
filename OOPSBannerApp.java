@@ -11,10 +11,10 @@ public class OOPSBannerApp {
 
     // This is the new function (method) we created to hold the banner logic
     public static void displayOopsBanner() {
-        System.out.println(" **   **  **  ** ");
+        System.out.println(" ****   ****  ****  **** ");
         System.out.println("*    * *    * *   * * ");
-        System.out.println("*    * *    * **  ** ");
+        System.out.println("*    * *    * ****  **** ");
         System.out.println("*    * *    * *        *");
-        System.out.println(" **   **  *     ** ");
+        System.out.println(" ****   ****  *     **** ");
     }
 }
