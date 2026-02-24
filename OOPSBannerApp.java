@@ -1,6 +1,6 @@
 /**
  * @author [VIGNESH]
- * @version 1.0 UC2-Print OOPS Banner
+ * @version 1.0 UC3 - OOPS Banner Using String Join
  */
 public class OOPSBannerApp {
 
@@ -11,10 +11,12 @@ public class OOPSBannerApp {
 
     // This is the new function (method) we created to hold the banner logic
     public static void displayOopsBanner() {
-        System.out.println(" ****   ****  ****  **** ");
-        System.out.println("*    * *    * *   * * ");
-        System.out.println("*    * *    * ****  **** ");
-        System.out.println("*    * *    * *        *");
-        System.out.println(" ****   ****  *     **** ");
+        System.out.println(String.join(" ","  ***   ","  ***  ","******","   ***** "));
+        System.out.println(String.join(" ","**    **","**   **","*    *"," **      "));
+        System.out.println(String.join(" ","**    **","**   **","*    *"," **       "));
+        System.out.println(String.join(" ","**    **","**   **","****** ","  *****  "));
+        System.out.println(String.join(" ","**    **","**   **","**    ","        ** "));
+        System.out.println(String.join(" ","**    **","**   **","**    "," **     ** "));
+        System.out.println(String.join(" ","  ***   ","  ***  ","**    ","   ***** "));
     }
 }
